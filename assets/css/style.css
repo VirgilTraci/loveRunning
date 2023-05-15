@@ -13,7 +13,8 @@ body {
     color: #3a3a3a;
 }
 
-h1, h2 {
+h1,
+h2 {
 
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -31,10 +32,11 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    
+
 }
 
-#menu, #logo {
+#menu,
+#logo {
 
     line-height: 75px;
 }
@@ -47,7 +49,7 @@ h1, h2 {
 }
 
 #menu a {
-    text-decoration: none; 
+    text-decoration: none;
     color: inherit;
 }
 
@@ -60,9 +62,9 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#hero-image { 
+#hero-image {
     height: 600px;
-    width:100%;
+    width: 100%;
     background: url('../images/hero-image.webp') no-repeat center center;
 
     /* Applying annimation to target */
@@ -84,13 +86,16 @@ h1, h2 {
 
 @keyframes hero-zoom {
     from {
-transform: scale(1);
-    } to {
-transform: scale(1.1);
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
     }
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
 
     color: #fff;
 
@@ -123,20 +128,24 @@ transform: scale(1.1);
     height: 600px;
 }
 
-#left-about {
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+#left_about {
 
     float: left;
     padding-top: 30px;
     width: 33%;
-    background-color: blue;
 }
 
-#right-about {
+#right_about {
 
     float: right;
     padding-top: 30px;
     width: 33%;
-    background-color: green;
 }
 
 #center-about {
@@ -144,4 +153,21 @@ transform: scale(1.1);
     width: 33%;
     margin: 0 auto;
     background-color: silver;
+}
+
+.left_about_heading {
+
+    float: right;
+}
+
+.right_about_heading {
+
+    float: left;
+}
+
+.about_heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
