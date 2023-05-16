@@ -261,3 +261,13 @@ footer>a {
 
     color: #fafafa;
 }
+
+#photos {
+
+    clear: both;
+    line-height: 1;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos
