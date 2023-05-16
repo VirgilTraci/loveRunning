@@ -268,6 +268,42 @@ footer>a {
     line-height: 1;
     column-count: 4;
     column-gap: 0;
+    row-gap: 0;
 }
 
-#photos
+#photos>img {
+
+    width: 100%;
+}
+
+/* media queries - site adaptiveness */
+
+@media screen and (max-width: 1200px) {
+
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left_about, #right_about {
+
+        width: 100%;
+        float: left;
+        padding: 0;
+
+    }
+
+    #center_about {
+        clear: both;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+}
