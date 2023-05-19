@@ -32,7 +32,6 @@ h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-
 }
 
 #menu,
@@ -78,7 +77,6 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -98,8 +96,6 @@ h2 {
 #cover-text h2 {
 
     color: #fff;
-
-
 }
 
 #cover-text {
@@ -107,17 +103,13 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 200px;
-
     padding-top: 40px;
     padding-left: 10px;
     background-color: rgba(241, 109, 107, .7);
-
     bottom: 30px;
     right: 150px;
-
     position: absolute;
 }
 
@@ -276,6 +268,66 @@ footer>a {
     width: 100%;
 }
 
+.signup-form {
+
+    padding: 30px;
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    margin-left: 10%;
+}
+
+.form-section {
+    clear: left;
+    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form>h2 {
+
+    color: #fafafa;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.signup-form>label {
+
+    display: block;
+}
+
+.text-input {
+
+    background-color: transparent;
+    color: #fafafa;
+    height: 25px;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+
+    border-color: #f16c6b;
+}
+
+.join-button {
+
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
 /* media queries - site adaptiveness */
 
 @media screen and (max-width: 1200px) {
@@ -291,7 +343,8 @@ footer>a {
         margin: 0;
     }
 
-    #left_about, #right_about {
+    #left_about,
+    #right_about {
 
         width: 100%;
         float: left;
@@ -304,6 +357,4 @@ footer>a {
         width: 100%;
         padding: 0;
     }
-}
-
 }
