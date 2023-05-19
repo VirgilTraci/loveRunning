@@ -202,6 +202,7 @@ footer {
 }
 
 .social_networks>li {
+
     display: inline;
     padding: 20px;
     height: 100px;
@@ -291,7 +292,7 @@ footer>a {
 
     color: #fafafa;
     margin-bottom: 20px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .signup-form>label {
@@ -314,6 +315,14 @@ footer>a {
 .text-input:hover {
 
     border-color: #f16c6b;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 9999s ease-in-out 0s;
+    color: #fafafa;
 }
 
 .join-button {
